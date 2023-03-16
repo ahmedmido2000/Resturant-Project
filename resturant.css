@@ -359,20 +359,25 @@ footer ul{
     list-style: none;
     justify-content: center;
 }
-footer a{
+footer div{
+    display: flex;
+    list-style: none;
+    justify-content: center;
+}
+footer i{
     font-size: 50px;
     text-decoration: none;
     color: var(--main-color);
     margin: 20px;
+    margin-top: 41px;
 }
+
 @media (max-width: 575px){
     footer a{
         font-size: 25px;
     }
 }
-footer li {
-    margin-top: 50px;
-}
+
 footer p{
     background-color: #333;
     margin-top: 72px;
